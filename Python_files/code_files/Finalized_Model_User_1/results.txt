@@ -1,0 +1,96 @@
+Data Processing started
+Data Processing done
+
+Do you want to create a .csv file for saving processed data?, Y/N : Y
+Data Scaling started
+Noise_10M
+Noise_1M
+Noise_DC
+Phase Margin
+Phase Margin Frequency
+3dB Bandwidth
+UGB
+DC_Power
+DC_Gain
+Slew Rate Value
+L_Mn_drive
+L_Mn_tail1
+L_Mp_stg1
+mul_cap
+nf_ibias
+nf_Mn_drive
+nf_Mn_tail1
+nf_Mn_tail2
+nf_Mp_stg2
+
+Do you want to create a .csv file for saving scaled data?, Y/N : Y
+Data Scaling done
+       L_Mn_drive  L_Mn_tail1  L_Mp_stg1  ...  DC_Power  DC_Gain  Slew Rate Value
+0             2.0        10.0        2.0  ...      10.2    48.26           16.400
+1             2.0        10.0        2.5  ...      10.2    48.88           15.800
+2             2.0        10.0        3.0  ...      10.2    49.35           14.400
+3             2.0        10.0        3.5  ...      10.2    49.73           14.200
+4             2.0        10.0        4.0  ...      10.2    50.06           13.300
+          ...         ...        ...  ...       ...      ...              ...
+28009         4.0        10.0        2.0  ...      38.6    47.91            0.427
+28010         4.0        10.0        2.0  ...      38.6    48.09            0.424
+28011         4.0        10.0        2.0  ...      38.6    48.08            0.419
+28012         4.0        10.0        2.0  ...      38.6    48.19            0.417
+28013         4.0        10.0        2.0  ...      38.6    48.28            0.413
+
+[14038 rows x 19 columns]
+         L_Mn_drive    L_Mn_tail1  ...       DC_Gain  Slew Rate Value
+count  14038.000000  14038.000000  ...  14038.000000     14038.000000
+mean       3.844244     13.149238  ...     48.995657        24.749116
+std        0.574680      5.722678  ...      1.306780        12.703584
+min        2.000000     10.000000  ...     44.920000         0.413000
+25%        4.000000     10.000000  ...     48.200000        15.700000
+50%        4.000000     10.000000  ...     49.050000        21.900000
+75%        4.000000     14.000000  ...     49.780000        31.900000
+max        5.000000     30.000000  ...     52.340000        95.100000
+
+[8 rows x 19 columns]
+
+Do you want to load models or create new ones (for load, type 0 and for create, type 1) : 1
+Creating Models
+classifier created for DC_Gain	 5.803490400314331
+classifier created for Slew Rate Values	 43.29478573799133
+classifier created for UGB	 89.11934757232666
+classifier created for Phase Margin	 452.1487138271332
+classifier created for DC_Power	 463.7040686607361
+classifier created for 3dB Bandwidth	 472.41881132125854
+classifier created for Noise_DC	 535.1686177253723
+classifier created for Noise_1M	 734.6686389446259
+classifier created for Noise_10M	 921.788556098938
+classifier created for nf_Mn_drive	 1009.4585053920746
+classifier created for nf_Mn_tail1	 1250.7880907058716
+classifier created for nf_Mn_tail2	 1511.9242832660675
+classifier created for nf_Mp_stg2	 1577.7032384872437
+classifier created for nf_ibias	 1802.9279839992523
+classifier created for L_Mn_drive	 1970.4677827358246
+classifier created for L_Mn_tail1	 2076.677550792694
+classifier created for L_Mp_stg1	 2133.3678448200226
+classifier created for mul_cap	 2168.027445077896
+Classfiers Created, time required :  2168.027445077896
+  Target Variable      RMSE
+0      L_Mn_drive  0.067275
+1      L_Mn_tail1  1.033182
+2       L_Mp_stg1  0.027060
+3         mul_cap  0.328165
+4        nf_ibias  0.047741
+5     nf_Mn_drive  1.185862
+6     nf_Mn_tail1  2.270763
+7     nf_Mn_tail2  1.068376
+8      nf_Mp_stg2  1.717911 
+           Target Variable      RMSE
+0               Noise_10M  0.369247
+1                Noise_1M  0.388251
+2                Noise_DC  0.184576
+3            Phase Margin  2.172883
+4  Phase Margin Frequency  3.100507
+5           3dB Bandwidth  0.638358
+6                     UGB  3.115055
+7                DC_Power  1.680322
+8                 DC_Gain  0.278208
+9         Slew Rate Value  3.997991
+Total Time required to run the code :  2553.75

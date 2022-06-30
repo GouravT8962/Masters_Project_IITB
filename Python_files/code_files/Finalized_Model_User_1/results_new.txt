@@ -1,0 +1,102 @@
+
+Directory with name Finalized_Model_User_1 already exists
+Data Processing started
+Data Processing done
+
+Do you want to create a .csv file for saving processed data?, Y/N : N
+Data Scaling started
+Noise_10M
+Noise_1M
+Noise_DC
+Phase Margin
+Phase Margin Frequency
+3dB Bandwidth
+UGB
+DC_Power
+DC_Gain
+Slew Rate Value
+L_Mn_drive
+L_Mn_tail1
+L_Mp_stg1
+mul_cap
+nf_ibias
+nf_Mn_drive
+nf_Mn_tail1
+nf_Mn_tail2
+nf_Mp_stg2
+
+Do you want to create a .csv file for saving scaled data?, Y/N : N
+Data Scaling done
+       L_Mn_drive  L_Mn_tail1  L_Mp_stg1  ...  DC_Power  DC_Gain  Slew Rate Value
+0             2.0        10.0        2.0  ...      10.2    48.26           16.400
+1             2.0        10.0        2.5  ...      10.2    48.88           15.800
+2             2.0        10.0        3.0  ...      10.2    49.35           14.400
+3             2.0        10.0        3.5  ...      10.2    49.73           14.200
+4             2.0        10.0        4.0  ...      10.2    50.06           13.300
+          ...         ...        ...  ...       ...      ...              ...
+28009         4.0        10.0        2.0  ...      38.6    47.91            0.427
+28010         4.0        10.0        2.0  ...      38.6    48.09            0.424
+28011         4.0        10.0        2.0  ...      38.6    48.08            0.419
+28012         4.0        10.0        2.0  ...      38.6    48.19            0.417
+28013         4.0        10.0        2.0  ...      38.6    48.28            0.413
+
+[14038 rows x 19 columns]
+         L_Mn_drive    L_Mn_tail1  ...       DC_Gain  Slew Rate Value
+count  14038.000000  14038.000000  ...  14038.000000     14038.000000
+mean       3.844244     13.149238  ...     48.995657        24.749116
+std        0.574680      5.722678  ...      1.306780        12.703584
+min        2.000000     10.000000  ...     44.920000         0.413000
+25%        4.000000     10.000000  ...     48.200000        15.700000
+50%        4.000000     10.000000  ...     49.050000        21.900000
+75%        4.000000     14.000000  ...     49.780000        31.900000
+max        5.000000     30.000000  ...     52.340000        95.100000
+
+[8 rows x 19 columns]
+
+ 
+Warning
+Figures now render in the Plots pane by default. To make them also appear inline in the Console, uncheck "Mute Inline Plotting" under the Plots pane options menu.
+ 
+Do you want to load models or create new ones (for load, type 0 and for create, type 1) : 1
+Creating Models
+classifier created for DC_Gain	 280.7450752258301
+classifier created for Slew Rate Values	 581.278687953949
+classifier created for UGB	 1080.9061183929443
+classifier created for Phase Margin	 1573.8447959423065
+classifier created for DC_Power	 2672.6076877117157
+classifier created for 3dB Bandwidth	 3319.7309448719025
+classifier created for Noise_DC	 3570.8077263832092
+classifier created for Noise_1M	 3873.9666051864624
+classifier created for Noise_10M	 4130.344952344894
+classifier created for nf_Mn_drive	 4247.254480600357
+classifier created for nf_Mn_tail1	 4367.208239555359
+classifier created for nf_Mn_tail2	 4683.326061248779
+classifier created for nf_Mp_stg2	 4752.78120303154
+classifier created for nf_ibias	 4976.006275177002
+classifier created for L_Mn_drive	 5140.050969362259
+classifier created for L_Mn_tail1	 5259.897696733475
+classifier created for L_Mp_stg1	 5435.437491178513
+classifier created for mul_cap	 5764.734974145889
+Classfiers Created, time required :  5764.734974145889
+  Target Variable      RMSE
+0      L_Mn_drive  0.066524
+1      L_Mn_tail1  0.964359
+2       L_Mp_stg1  0.016756
+3         mul_cap  0.173780
+4        nf_ibias  0.050637
+5     nf_Mn_drive  1.126096
+6     nf_Mn_tail1  1.913101
+7     nf_Mn_tail2  0.977525
+8      nf_Mp_stg2  1.808483 
+           Target Variable      RMSE
+0               Noise_10M  0.321348
+1                Noise_1M  0.266215
+2                Noise_DC  0.097089
+3            Phase Margin  1.598895
+4  Phase Margin Frequency  2.053760
+5           3dB Bandwidth  0.402287
+6                     UGB  2.066945
+7                DC_Power  1.199082
+8                 DC_Gain  0.233210
+9         Slew Rate Value  2.279065
+Total Time required to run the code :  8044.351
