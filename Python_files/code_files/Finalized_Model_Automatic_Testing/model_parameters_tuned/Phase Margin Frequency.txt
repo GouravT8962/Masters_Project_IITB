@@ -1,0 +1,52 @@
+{'C': 50, 'epsilon': 0.01, 'gamma': 0.01, 'kernel': 'rbf'}
+
+Fitting 5 folds for each of 9 candidates, totalling 45 fits
+[CV 1/5] END C=1, epsilon=0.01, gamma=0.1, kernel=rbf;, score=0.170 total time=  14.1s
+[CV 2/5] END C=1, epsilon=0.01, gamma=0.1, kernel=rbf;, score=0.160 total time=  14.4s
+[CV 3/5] END C=1, epsilon=0.01, gamma=0.1, kernel=rbf;, score=0.158 total time=  13.1s
+[CV 4/5] END C=1, epsilon=0.01, gamma=0.1, kernel=rbf;, score=0.162 total time=  12.9s
+[CV 5/5] END C=1, epsilon=0.01, gamma=0.1, kernel=rbf;, score=0.170 total time=  13.1s
+[CV 1/5] END C=1, epsilon=0.01, gamma=0.01, kernel=rbf;, score=0.897 total time=  12.1s
+[CV 2/5] END C=1, epsilon=0.01, gamma=0.01, kernel=rbf;, score=0.896 total time=  12.8s
+[CV 3/5] END C=1, epsilon=0.01, gamma=0.01, kernel=rbf;, score=0.897 total time=  11.6s
+[CV 4/5] END C=1, epsilon=0.01, gamma=0.01, kernel=rbf;, score=0.890 total time=  11.7s
+[CV 5/5] END C=1, epsilon=0.01, gamma=0.01, kernel=rbf;, score=0.892 total time=  12.2s
+[CV 1/5] END C=1, epsilon=0.01, gamma=0.001, kernel=rbf;, score=0.949 total time=  14.4s
+[CV 2/5] END C=1, epsilon=0.01, gamma=0.001, kernel=rbf;, score=0.948 total time=  12.3s
+[CV 3/5] END C=1, epsilon=0.01, gamma=0.001, kernel=rbf;, score=0.943 total time=  10.7s
+[CV 4/5] END C=1, epsilon=0.01, gamma=0.001, kernel=rbf;, score=0.939 total time=  11.1s
+[CV 5/5] END C=1, epsilon=0.01, gamma=0.001, kernel=rbf;, score=0.944 total time=  10.7s
+[CV 1/5] END C=10, epsilon=0.01, gamma=0.1, kernel=rbf;, score=0.661 total time=  57.0s
+[CV 2/5] END C=10, epsilon=0.01, gamma=0.1, kernel=rbf;, score=0.684 total time=  54.6s
+[CV 3/5] END C=10, epsilon=0.01, gamma=0.1, kernel=rbf;, score=0.665 total time=  56.3s
+[CV 4/5] END C=10, epsilon=0.01, gamma=0.1, kernel=rbf;, score=0.681 total time=  55.6s
+[CV 5/5] END C=10, epsilon=0.01, gamma=0.1, kernel=rbf;, score=0.676 total time=  57.7s
+[CV 1/5] END C=10, epsilon=0.01, gamma=0.01, kernel=rbf;, score=0.990 total time=  41.7s
+[CV 2/5] END C=10, epsilon=0.01, gamma=0.01, kernel=rbf;, score=0.990 total time=  38.3s
+[CV 3/5] END C=10, epsilon=0.01, gamma=0.01, kernel=rbf;, score=0.991 total time=  39.7s
+[CV 4/5] END C=10, epsilon=0.01, gamma=0.01, kernel=rbf;, score=0.990 total time=  41.4s
+[CV 5/5] END C=10, epsilon=0.01, gamma=0.01, kernel=rbf;, score=0.991 total time=  41.4s
+[CV 1/5] END C=10, epsilon=0.01, gamma=0.001, kernel=rbf;, score=0.986 total time=  17.7s
+[CV 2/5] END C=10, epsilon=0.01, gamma=0.001, kernel=rbf;, score=0.985 total time=  21.2s
+[CV 3/5] END C=10, epsilon=0.01, gamma=0.001, kernel=rbf;, score=0.983 total time=  17.1s
+[CV 4/5] END C=10, epsilon=0.01, gamma=0.001, kernel=rbf;, score=0.982 total time=  21.1s
+[CV 5/5] END C=10, epsilon=0.01, gamma=0.001, kernel=rbf;, score=0.983 total time=  16.5s
+[CV 1/5] END C=50, epsilon=0.01, gamma=0.1, kernel=rbf;, score=0.799 total time= 2.8min
+[CV 2/5] END C=50, epsilon=0.01, gamma=0.1, kernel=rbf;, score=0.818 total time= 2.7min
+[CV 3/5] END C=50, epsilon=0.01, gamma=0.1, kernel=rbf;, score=0.808 total time= 2.6min
+[CV 4/5] END C=50, epsilon=0.01, gamma=0.1, kernel=rbf;, score=0.837 total time= 2.5min
+[CV 5/5] END C=50, epsilon=0.01, gamma=0.1, kernel=rbf;, score=0.811 total time= 2.5min
+[CV 1/5] END C=50, epsilon=0.01, gamma=0.01, kernel=rbf;, score=0.998 total time= 4.5min
+[CV 2/5] END C=50, epsilon=0.01, gamma=0.01, kernel=rbf;, score=0.999 total time= 4.3min
+[CV 3/5] END C=50, epsilon=0.01, gamma=0.01, kernel=rbf;, score=0.999 total time= 4.2min
+[CV 4/5] END C=50, epsilon=0.01, gamma=0.01, kernel=rbf;, score=0.998 total time= 4.2min
+[CV 5/5] END C=50, epsilon=0.01, gamma=0.01, kernel=rbf;, score=0.999 total time= 4.5min
+[CV 1/5] END C=50, epsilon=0.01, gamma=0.001, kernel=rbf;, score=0.994 total time=  42.1s
+[CV 2/5] END C=50, epsilon=0.01, gamma=0.001, kernel=rbf;, score=0.992 total time=  41.6s
+[CV 3/5] END C=50, epsilon=0.01, gamma=0.001, kernel=rbf;, score=0.991 total time=  41.3s
+[CV 4/5] END C=50, epsilon=0.01, gamma=0.001, kernel=rbf;, score=0.991 total time=  38.7s
+[CV 5/5] END C=50, epsilon=0.01, gamma=0.001, kernel=rbf;, score=0.990 total time=  43.4s
+Phase Margin Frequency
+{'C': 50, 'epsilon': 0.01, 'gamma': 0.01, 'kernel': 'rbf'}
+SVR(C=50, epsilon=0.01, gamma=0.01)
+0.999303241292334
